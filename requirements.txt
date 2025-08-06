@@ -1,0 +1,9 @@
+openpyxl
+pandas
+plotly
+psycopg2-binary
+python-dotenv
+sqlalchemy
+streamlit
+# cat requirements.txt | grep -vE '^\s*#' | grep -vE '^\s*$' | xargs poetry add
+# pip install -r requirements.txt
